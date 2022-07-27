@@ -1,5 +1,5 @@
 # ExtrCamCalib_PersonKeypoints
-In this repo we publish the code for the paper:<br>
+In this repo we will publish the code for the paper:<br>
 Online Marker-free Extrinsic Camera Calibration using Person Keypoint Detections
 
 ## Citation
