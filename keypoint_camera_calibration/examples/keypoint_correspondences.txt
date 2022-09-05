@@ -1,0 +1,42 @@
+2D:             #COCO    #Mapping
+ 0: nose                 0
+ 1: l_eye                16
+ 2: r_eye                15
+ 3: l_ear                18
+ 4: r_ear                17
+ 5: l_shoulder           5
+ 6: r_shoulder           2
+ 7: l_elbow              6
+ 8: r_elbow              3
+ 9: l_wrist              7
+10: r_wrist              4
+11: l_hip                12
+12: r_hip                9
+13: l_knee               13
+14: r_knee               10
+15: l_ankle              14
+16: r_ankle              11
+
+
+3D:             # COCO / H3.6M
+ 0: nose
+ 1: neck        # avg. between shoulders
+ 2: r_Shoulder
+ 3: r_elbow
+ 4: r_wrist
+ 5: l_shoulder
+ 6: l_elbow
+ 7: l_wrist
+ 8: midHip      # avg. between hips
+ 9: r_hip
+10: r_knee
+11: r_ankle
+12: l_hip
+13: l_knee
+14: l_ankle
+15: r_eye
+16: l_eye
+17: r_ear
+18: l_ear
+19: head       #not used
+20: belly      #not used

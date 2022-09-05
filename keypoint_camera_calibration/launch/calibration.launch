@@ -1,0 +1,4 @@
+<launch>
+    <node name="calibration" pkg="keypoint_camera_calibration" type="calibration.py" output="screen"/>
+    <node name="map_server" pkg="map_server" type="map_server" args="$(find keypoint_camera_calibration)/examples/map/map.yaml" />
+</launch>

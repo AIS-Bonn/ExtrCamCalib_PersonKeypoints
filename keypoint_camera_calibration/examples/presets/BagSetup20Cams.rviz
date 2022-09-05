@@ -1,0 +1,924 @@
+Panels:
+  - Class: rviz/Displays
+    Help Height: 84
+    Name: Displays
+    Property Tree Widget:
+      Expanded:
+        - /Global Options1
+        - /Results1/Frames1
+        - /Estimate1/Frames1
+        - /3D-Projection1
+        - /3D-Projection1/Namespaces1
+      Splitter Ratio: 0.4926624596118927
+    Tree Height: 1773
+  - Class: rviz/Selection
+    Name: Selection
+  - Class: rviz/Tool Properties
+    Expanded:
+      - /2D Pose Estimate1
+      - /2D Nav Goal1
+      - /Publish Point1
+    Name: Tool Properties
+    Splitter Ratio: 0.5886790156364441
+  - Class: rviz/Views
+    Expanded:
+      - /Current View1
+    Name: Views
+    Splitter Ratio: 0.5
+  - Class: rviz/Time
+    Experimental: false
+    Name: Time
+    SyncMode: 0
+    SyncSource: ""
+Preferences:
+  PromptSaveOnExit: true
+Toolbars:
+  toolButtonStyle: 2
+Visualization Manager:
+  Class: ""
+  Displays:
+    - Alpha: 0.5
+      Cell Size: 0.800000011920929
+      Class: rviz/Grid
+      Color: 160; 160; 164
+      Enabled: true
+      Line Style:
+        Line Width: 0.029999999329447746
+        Value: Lines
+      Name: Grid
+      Normal Cell Count: 0
+      Offset:
+        X: 0
+        Y: 0
+        Z: 0
+      Plane: XY
+      Plane Cell Count: 40
+      Reference Frame: base
+      Value: true
+    - Alpha: 0.699999988079071
+      Class: rviz/Map
+      Color Scheme: map
+      Draw Behind: true
+      Enabled: true
+      Name: Map
+      Topic: /map
+      Unreliable: false
+      Use Timestamp: false
+      Value: true
+    - Class: rviz/TF
+      Enabled: true
+      Frame Timeout: 999999
+      Frames:
+        All Enabled: false
+        base:
+          Value: false
+        cam_0:
+          Value: false
+        cam_0_ini:
+          Value: false
+        cam_0_ref:
+          Value: true
+        cam_1:
+          Value: false
+        cam_10:
+          Value: false
+        cam_10_ini:
+          Value: false
+        cam_10_ref:
+          Value: true
+        cam_11:
+          Value: false
+        cam_11_ini:
+          Value: false
+        cam_11_ref:
+          Value: true
+        cam_12:
+          Value: false
+        cam_12_ini:
+          Value: false
+        cam_12_ref:
+          Value: true
+        cam_13:
+          Value: false
+        cam_13_ini:
+          Value: false
+        cam_13_ref:
+          Value: true
+        cam_14:
+          Value: false
+        cam_14_ini:
+          Value: false
+        cam_14_ref:
+          Value: true
+        cam_15:
+          Value: false
+        cam_15_ini:
+          Value: false
+        cam_15_ref:
+          Value: true
+        cam_16:
+          Value: false
+        cam_16_ini:
+          Value: false
+        cam_16_ref:
+          Value: true
+        cam_17:
+          Value: false
+        cam_17_ini:
+          Value: false
+        cam_17_ref:
+          Value: true
+        cam_18:
+          Value: false
+        cam_18_ini:
+          Value: false
+        cam_18_ref:
+          Value: true
+        cam_19:
+          Value: false
+        cam_19_ini:
+          Value: false
+        cam_19_ref:
+          Value: true
+        cam_1_ini:
+          Value: false
+        cam_1_ref:
+          Value: true
+        cam_2:
+          Value: false
+        cam_2_ini:
+          Value: false
+        cam_2_ref:
+          Value: true
+        cam_3:
+          Value: false
+        cam_3_ini:
+          Value: false
+        cam_3_ref:
+          Value: true
+        cam_4:
+          Value: false
+        cam_4_ini:
+          Value: false
+        cam_4_ref:
+          Value: true
+        cam_5:
+          Value: false
+        cam_5_ini:
+          Value: false
+        cam_5_ref:
+          Value: true
+        cam_6:
+          Value: false
+        cam_6_ini:
+          Value: false
+        cam_6_ref:
+          Value: true
+        cam_7:
+          Value: false
+        cam_7_ini:
+          Value: false
+        cam_7_ref:
+          Value: true
+        cam_8:
+          Value: false
+        cam_8_ini:
+          Value: false
+        cam_8_ref:
+          Value: true
+        cam_9:
+          Value: false
+        cam_9_ini:
+          Value: false
+        cam_9_ref:
+          Value: true
+        map:
+          Value: false
+      Marker Scale: 3
+      Name: Groundtruth
+      Show Arrows: false
+      Show Axes: true
+      Show Names: false
+      Tree:
+        base:
+          cam_0:
+            cam_1:
+              {}
+            cam_10:
+              {}
+            cam_11:
+              {}
+            cam_12:
+              {}
+            cam_13:
+              {}
+            cam_14:
+              {}
+            cam_15:
+              {}
+            cam_16:
+              {}
+            cam_17:
+              {}
+            cam_18:
+              {}
+            cam_19:
+              {}
+            cam_2:
+              {}
+            cam_3:
+              {}
+            cam_4:
+              {}
+            cam_5:
+              {}
+            cam_6:
+              {}
+            cam_7:
+              {}
+            cam_8:
+              {}
+            cam_9:
+              {}
+          cam_0_ini:
+            cam_10_ini:
+              {}
+            cam_11_ini:
+              {}
+            cam_12_ini:
+              {}
+            cam_13_ini:
+              {}
+            cam_14_ini:
+              {}
+            cam_15_ini:
+              {}
+            cam_16_ini:
+              {}
+            cam_17_ini:
+              {}
+            cam_18_ini:
+              {}
+            cam_19_ini:
+              {}
+            cam_1_ini:
+              {}
+            cam_2_ini:
+              {}
+            cam_3_ini:
+              {}
+            cam_4_ini:
+              {}
+            cam_5_ini:
+              {}
+            cam_6_ini:
+              {}
+            cam_7_ini:
+              {}
+            cam_8_ini:
+              {}
+            cam_9_ini:
+              {}
+          cam_0_ref:
+            cam_10_ref:
+              {}
+            cam_11_ref:
+              {}
+            cam_12_ref:
+              {}
+            cam_13_ref:
+              {}
+            cam_14_ref:
+              {}
+            cam_15_ref:
+              {}
+            cam_16_ref:
+              {}
+            cam_17_ref:
+              {}
+            cam_18_ref:
+              {}
+            cam_19_ref:
+              {}
+            cam_1_ref:
+              {}
+            cam_2_ref:
+              {}
+            cam_3_ref:
+              {}
+            cam_4_ref:
+              {}
+            cam_5_ref:
+              {}
+            cam_6_ref:
+              {}
+            cam_7_ref:
+              {}
+            cam_8_ref:
+              {}
+            cam_9_ref:
+              {}
+          map:
+            {}
+      Update Interval: 1
+      Value: true
+    - Class: rviz/TF
+      Enabled: true
+      Frame Timeout: 1e+9
+      Frames:
+        All Enabled: false
+        base:
+          Value: false
+        cam_0:
+          Value: true
+        cam_0_ini:
+          Value: false
+        cam_0_ref:
+          Value: false
+        cam_1:
+          Value: true
+        cam_10:
+          Value: true
+        cam_10_ini:
+          Value: false
+        cam_10_ref:
+          Value: false
+        cam_11:
+          Value: true
+        cam_11_ini:
+          Value: false
+        cam_11_ref:
+          Value: false
+        cam_12:
+          Value: true
+        cam_12_ini:
+          Value: false
+        cam_12_ref:
+          Value: false
+        cam_13:
+          Value: true
+        cam_13_ini:
+          Value: false
+        cam_13_ref:
+          Value: false
+        cam_14:
+          Value: true
+        cam_14_ini:
+          Value: false
+        cam_14_ref:
+          Value: false
+        cam_15:
+          Value: true
+        cam_15_ini:
+          Value: false
+        cam_15_ref:
+          Value: false
+        cam_16:
+          Value: true
+        cam_16_ini:
+          Value: false
+        cam_16_ref:
+          Value: false
+        cam_17:
+          Value: true
+        cam_17_ini:
+          Value: false
+        cam_17_ref:
+          Value: false
+        cam_18:
+          Value: true
+        cam_18_ini:
+          Value: false
+        cam_18_ref:
+          Value: false
+        cam_19:
+          Value: true
+        cam_19_ini:
+          Value: false
+        cam_19_ref:
+          Value: false
+        cam_1_ini:
+          Value: false
+        cam_1_ref:
+          Value: false
+        cam_2:
+          Value: true
+        cam_2_ini:
+          Value: false
+        cam_2_ref:
+          Value: false
+        cam_3:
+          Value: true
+        cam_3_ini:
+          Value: false
+        cam_3_ref:
+          Value: false
+        cam_4:
+          Value: true
+        cam_4_ini:
+          Value: false
+        cam_4_ref:
+          Value: false
+        cam_5:
+          Value: true
+        cam_5_ini:
+          Value: false
+        cam_5_ref:
+          Value: false
+        cam_6:
+          Value: true
+        cam_6_ini:
+          Value: false
+        cam_6_ref:
+          Value: false
+        cam_7:
+          Value: true
+        cam_7_ini:
+          Value: false
+        cam_7_ref:
+          Value: false
+        cam_8:
+          Value: true
+        cam_8_ini:
+          Value: false
+        cam_8_ref:
+          Value: false
+        cam_9:
+          Value: true
+        cam_9_ini:
+          Value: false
+        cam_9_ref:
+          Value: false
+        map:
+          Value: false
+      Marker Scale: 4
+      Name: Results
+      Show Arrows: false
+      Show Axes: true
+      Show Names: true
+      Tree:
+        base:
+          cam_0:
+            cam_1:
+              {}
+            cam_10:
+              {}
+            cam_11:
+              {}
+            cam_12:
+              {}
+            cam_13:
+              {}
+            cam_14:
+              {}
+            cam_15:
+              {}
+            cam_16:
+              {}
+            cam_17:
+              {}
+            cam_18:
+              {}
+            cam_19:
+              {}
+            cam_2:
+              {}
+            cam_3:
+              {}
+            cam_4:
+              {}
+            cam_5:
+              {}
+            cam_6:
+              {}
+            cam_7:
+              {}
+            cam_8:
+              {}
+            cam_9:
+              {}
+          cam_0_ini:
+            cam_10_ini:
+              {}
+            cam_11_ini:
+              {}
+            cam_12_ini:
+              {}
+            cam_13_ini:
+              {}
+            cam_14_ini:
+              {}
+            cam_15_ini:
+              {}
+            cam_16_ini:
+              {}
+            cam_17_ini:
+              {}
+            cam_18_ini:
+              {}
+            cam_19_ini:
+              {}
+            cam_1_ini:
+              {}
+            cam_2_ini:
+              {}
+            cam_3_ini:
+              {}
+            cam_4_ini:
+              {}
+            cam_5_ini:
+              {}
+            cam_6_ini:
+              {}
+            cam_7_ini:
+              {}
+            cam_8_ini:
+              {}
+            cam_9_ini:
+              {}
+          cam_0_ref:
+            cam_10_ref:
+              {}
+            cam_11_ref:
+              {}
+            cam_12_ref:
+              {}
+            cam_13_ref:
+              {}
+            cam_14_ref:
+              {}
+            cam_15_ref:
+              {}
+            cam_16_ref:
+              {}
+            cam_17_ref:
+              {}
+            cam_18_ref:
+              {}
+            cam_19_ref:
+              {}
+            cam_1_ref:
+              {}
+            cam_2_ref:
+              {}
+            cam_3_ref:
+              {}
+            cam_4_ref:
+              {}
+            cam_5_ref:
+              {}
+            cam_6_ref:
+              {}
+            cam_7_ref:
+              {}
+            cam_8_ref:
+              {}
+            cam_9_ref:
+              {}
+          map:
+            {}
+      Update Interval: 0
+      Value: true
+    - Class: rviz/TF
+      Enabled: true
+      Frame Timeout: 1e+9
+      Frames:
+        All Enabled: false
+        base:
+          Value: true
+        cam_0:
+          Value: true
+        cam_0_ini:
+          Value: true
+        cam_0_ref:
+          Value: true
+        cam_1:
+          Value: true
+        cam_10:
+          Value: true
+        cam_10_ini:
+          Value: true
+        cam_10_ref:
+          Value: true
+        cam_11:
+          Value: true
+        cam_11_ini:
+          Value: true
+        cam_11_ref:
+          Value: true
+        cam_12:
+          Value: true
+        cam_12_ini:
+          Value: true
+        cam_12_ref:
+          Value: true
+        cam_13:
+          Value: true
+        cam_13_ini:
+          Value: true
+        cam_13_ref:
+          Value: true
+        cam_14:
+          Value: true
+        cam_14_ini:
+          Value: true
+        cam_14_ref:
+          Value: true
+        cam_15:
+          Value: true
+        cam_15_ini:
+          Value: true
+        cam_15_ref:
+          Value: true
+        cam_16:
+          Value: true
+        cam_16_ini:
+          Value: true
+        cam_16_ref:
+          Value: true
+        cam_17:
+          Value: true
+        cam_17_ini:
+          Value: true
+        cam_17_ref:
+          Value: true
+        cam_18:
+          Value: true
+        cam_18_ini:
+          Value: true
+        cam_18_ref:
+          Value: true
+        cam_19:
+          Value: true
+        cam_19_ini:
+          Value: true
+        cam_19_ref:
+          Value: true
+        cam_1_ini:
+          Value: true
+        cam_1_ref:
+          Value: true
+        cam_2:
+          Value: true
+        cam_2_ini:
+          Value: true
+        cam_2_ref:
+          Value: true
+        cam_3:
+          Value: true
+        cam_3_ini:
+          Value: true
+        cam_3_ref:
+          Value: true
+        cam_4:
+          Value: true
+        cam_4_ini:
+          Value: true
+        cam_4_ref:
+          Value: true
+        cam_5:
+          Value: true
+        cam_5_ini:
+          Value: true
+        cam_5_ref:
+          Value: true
+        cam_6:
+          Value: true
+        cam_6_ini:
+          Value: true
+        cam_6_ref:
+          Value: true
+        cam_7:
+          Value: true
+        cam_7_ini:
+          Value: true
+        cam_7_ref:
+          Value: true
+        cam_8:
+          Value: true
+        cam_8_ini:
+          Value: true
+        cam_8_ref:
+          Value: true
+        cam_9:
+          Value: true
+        cam_9_ini:
+          Value: true
+        cam_9_ref:
+          Value: true
+        map:
+          Value: true
+      Marker Scale: 1
+      Name: Estimate
+      Show Arrows: false
+      Show Axes: true
+      Show Names: false
+      Tree:
+        base:
+          cam_0:
+            cam_1:
+              {}
+            cam_10:
+              {}
+            cam_11:
+              {}
+            cam_12:
+              {}
+            cam_13:
+              {}
+            cam_14:
+              {}
+            cam_15:
+              {}
+            cam_16:
+              {}
+            cam_17:
+              {}
+            cam_18:
+              {}
+            cam_19:
+              {}
+            cam_2:
+              {}
+            cam_3:
+              {}
+            cam_4:
+              {}
+            cam_5:
+              {}
+            cam_6:
+              {}
+            cam_7:
+              {}
+            cam_8:
+              {}
+            cam_9:
+              {}
+          cam_0_ini:
+            cam_10_ini:
+              {}
+            cam_11_ini:
+              {}
+            cam_12_ini:
+              {}
+            cam_13_ini:
+              {}
+            cam_14_ini:
+              {}
+            cam_15_ini:
+              {}
+            cam_16_ini:
+              {}
+            cam_17_ini:
+              {}
+            cam_18_ini:
+              {}
+            cam_19_ini:
+              {}
+            cam_1_ini:
+              {}
+            cam_2_ini:
+              {}
+            cam_3_ini:
+              {}
+            cam_4_ini:
+              {}
+            cam_5_ini:
+              {}
+            cam_6_ini:
+              {}
+            cam_7_ini:
+              {}
+            cam_8_ini:
+              {}
+            cam_9_ini:
+              {}
+          cam_0_ref:
+            cam_10_ref:
+              {}
+            cam_11_ref:
+              {}
+            cam_12_ref:
+              {}
+            cam_13_ref:
+              {}
+            cam_14_ref:
+              {}
+            cam_15_ref:
+              {}
+            cam_16_ref:
+              {}
+            cam_17_ref:
+              {}
+            cam_18_ref:
+              {}
+            cam_19_ref:
+              {}
+            cam_1_ref:
+              {}
+            cam_2_ref:
+              {}
+            cam_3_ref:
+              {}
+            cam_4_ref:
+              {}
+            cam_5_ref:
+              {}
+            cam_6_ref:
+              {}
+            cam_7_ref:
+              {}
+            cam_8_ref:
+              {}
+            cam_9_ref:
+              {}
+          map:
+            {}
+      Update Interval: 0
+      Value: true
+    - Class: rviz/MarkerArray
+      Enabled: true
+      Marker Topic: /keypoint_projections
+      Name: 3D-Projection
+      Namespaces:
+        Center of mass: false
+        Depth Estimation: false
+        Optimization: true
+        Triangulation: true
+      Queue Size: 100
+      Value: true
+    - Class: rviz/MarkerArray
+      Enabled: true
+      Marker Topic: /human_pose_estimation/skeleton3d_fused
+      Name: Persons
+      Namespaces:
+        joints_fused: true
+        skeleton_fused: true
+      Queue Size: 100
+      Value: true
+  Enabled: true
+  Global Options:
+    Background Color: 0; 0; 0
+    Default Light: true
+    Fixed Frame: base
+    Frame Rate: 30
+  Name: root
+  Tools:
+    - Class: rviz/Interact
+      Hide Inactive Objects: true
+    - Class: rviz/MoveCamera
+    - Class: rviz/Select
+    - Class: rviz/FocusCamera
+    - Class: rviz/Measure
+    - Class: rviz/SetInitialPose
+      Theta std deviation: 0.2617993950843811
+      Topic: /initialpose
+      X std deviation: 0.5
+      Y std deviation: 0.5
+    - Class: rviz/SetGoal
+      Topic: /move_base_simple/goal
+    - Class: rviz/PublishPoint
+      Single click: true
+      Topic: /clicked_point
+  Value: true
+  Views:
+    Current:
+      Class: rviz/Orbit
+      Distance: 24.430191040039062
+      Enable Stereo Rendering:
+        Stereo Eye Separation: 0.05999999865889549
+        Stereo Focal Distance: 1
+        Swap Stereo Eyes: false
+        Value: false
+      Focal Point:
+        X: -0.1370115429162979
+        Y: 0.875519335269928
+        Z: 0.0732044205069542
+      Focal Shape Fixed Size: false
+      Focal Shape Size: 0.05000000074505806
+      Invert Z Axis: false
+      Name: Current View
+      Near Clip Distance: 0.009999999776482582
+      Pitch: 0.5397975444793701
+      Target Frame: base
+      Value: Orbit (rviz)
+      Yaw: 1.165120005607605
+    Saved: ~
+Window Geometry:
+  "&Displays":
+    collapsed: false
+  Height: 2047
+  Hide Left Dock: false
+  Hide Right Dock: false
+  QMainWindow State: 000000ff00000000fd0000000400000000000001e5000007a0fc0200000008fb000000100044006900730070006c006100790073010000002b000007a00000010901000003fb0000001200530065006c0065006300740069006f006e00000001e10000009b0000007b01000003fb0000001e0054006f006f006c002000500072006f007000650072007400690065007302000001ed000001df00000185000000a3fb000000120056006900650077007300200054006f006f02000001df000002110000018500000122fb000000200054006f006f006c002000500072006f0070006500720074006900650073003203000002880000011d000002210000017afb0000002000730065006c0065006300740069006f006e00200062007500660066006500720200000138000000aa0000023a00000294fb00000014005700690064006500530074006500720065006f02000000e6000000d2000003ee0000030bfb0000000c004b0069006e0065006300740200000186000001060000030c00000261000000010000010f00000355fc0200000003fb0000001e0054006f006f006c002000500072006f00700065007200740069006500730100000041000000780000000000000000fb0000000a00560069006500770073000000003d00000355000000ef01000003fb0000001200530065006c0065006300740069006f006e010000025a000000b200000000000000000000000200000490000000a9fc0100000001fb0000000a00560069006500770073030000004e00000080000002e10000019700000003000007780000004afc0100000002fb0000000800540069006d00650000000000000007780000041001000003fb0000000800540069006d0065010000000000000450000000000000000000000d1a000007a000000004000000040000000800000008fc0000000100000002000000010000000a0054006f006f006c00730000000000ffffffff0000000000000000
+  Selection:
+    collapsed: false
+  Time:
+    collapsed: false
+  Tool Properties:
+    collapsed: false
+  Views:
+    collapsed: false
+  Width: 3840
+  X: 0
+  Y: 0
