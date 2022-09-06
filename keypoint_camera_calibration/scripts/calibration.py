@@ -3557,7 +3557,7 @@ class calibration:
 
 def main():
 
-    rospy.init_node("calibration_node",disable_signals=True)
+    rospy.init_node("calibration",disable_signals=True)
     
     calibrator = calibration()
 

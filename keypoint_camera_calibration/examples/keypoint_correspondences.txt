@@ -38,5 +38,5 @@
 16: l_eye
 17: r_ear
 18: l_ear
-19: head       #not used
-20: belly      #not used
+19: head       # not used
+20: belly      # not used

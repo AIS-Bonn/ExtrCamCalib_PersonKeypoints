@@ -4,7 +4,7 @@
   <description>Online Marker-free Extrinsic Camera Calibration using Person Keypoint Detections</description>
   <version>0.0.1</version>
   <license>BSD</license>
-  <maintainer email="paetzold@uni-bonn.de">Bastian Pätzold</maintainer>
+  <maintainer email="paetzold@ais.uni-bonn.de">Bastian Pätzold</maintainer>
   
   <buildtool_depend>catkin</buildtool_depend>
   
