@@ -28,7 +28,8 @@ For additional standard-dependencies, see [calibration.py](keypoint_camera_calib
 ### Build
 
 Place the `keypoint_camera_calibration` package in your `catkin_ws/src` folder.<br>
-Navigate to your `catkin_ws` and run `catkin_make` or `catkin_build keypoint_camera_calibration`, depending on your build system.
+Navigate to your `catkin_ws` and run `catkin_make` or `catkin_build keypoint_camera_calibration`,<br> 
+depending on your build system.
 
 ### Demo
 
