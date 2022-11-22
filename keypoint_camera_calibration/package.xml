@@ -12,6 +12,6 @@
   <depend>message_generation</depend>
   <depend>geometry_msgs</depend>
   <depend>std_msgs</depend>
-  <depend>üerson_msgs</depend>
+  <depend>person_msgs</depend>
   
 </package>
