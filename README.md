@@ -17,7 +17,7 @@ Both packages must be built with Python3 support, e.g. using
 catkin_make -DPYTHON_EXECUTABLE:FILEPATH=/usr/bin/python3 -DPYTHON_INCLUDE_DIR=/usr/include/python3.6m -DPYTHON_LIBRARY=/usr/lib/x86_64-linux-gnu/libpython3.6m.so
 ```
 
-The received person keypoint detections must be encoded using the [person_msgs](https://github.com/AIS-Bonn/SmartEdgeSensor3DScenePerception/tree/master/person_msgs/msg) package with the default joint order being defined [here](keypoint_camera_calibration/examples/keypoint_correspondences.txt).
+The received person keypoint detections must be encoded using the [person_msgs](person_msgs/msg) package with the default joint order being defined [here](keypoint_camera_calibration/examples/keypoint_correspondences.txt).
 Place the `person_msgs` package it in your `catkin_ws/src` folder and build it via `catkin_make` or `catkin_build person_msgs`.
 
 The factor graph optimization is implemented using the [GTSAM library](https://github.com/borglab/gtsam),<br>
