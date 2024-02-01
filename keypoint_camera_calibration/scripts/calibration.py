@@ -936,7 +936,7 @@ class calibration:
                     value = np.min(scores)
                     if value < self.person_msg_scores_min:
                         if self.print_verbose:
-                            self.self.format_num("\tEncoutered smaller score than expected: "
+                            self.print("\tEncoutered smaller score than expected: "
                                 +self.format_num(value,1,3)+" < "+self.format_num(self.person_msg_scores_min,1,3)
                                 +" ; Scores are normalized accordingly from now on!", stamp=True) 
                         self.person_msg_scores_min = value # old frames will be ranked too low in frame selection
@@ -960,7 +960,7 @@ class calibration:
                     value = np.min(scores)
                     if value < 0.0:
                         if self.print_verbose:
-                            self.self.format_num("\tEncoutered smaller score than expected, "
+                            self.print("\tEncoutered smaller score than expected, "
                                 +self.format_num(value,1,3)+" < 0.0"
                                 +" : Scores are clipped at 0.0!", stamp=True)
                         clip = True
@@ -2507,7 +2507,7 @@ class calibration:
                                 
                                 if human['keypoints'][i][2] < self.person_msg_scores_min:
                                     if self.print_verbose:
-                                        self.self.format_num("\tWarning! - Found smaller score than expected (in 2D publisher), "
+                                        self.print("\tWarning! - Found smaller score than expected (in 2D publisher), "
                                             +self.format_num(human['keypoints'][i][2],1,3)+" < "+self.format_num(self.person_msg_scores_min,1,3)
                                             +" - Scores will be normalized accordingly from now!") 
                                     self.person_msg_scores_min = human['keypoints'][i][2] # old frames will be ranked too low in frame selection
@@ -2527,7 +2527,7 @@ class calibration:
 
                                 if human['keypoints'][i][2] < 0.0:
                                     if self.print_verbose:
-                                        self.self.format_num("\tWarning! - Found smaller score than expected (in 2D publisher), "
+                                        self.print("\tWarning! - Found smaller score than expected (in 2D publisher), "
                                             +self.format_num(human['keypoints'][i][2],1,3)+" < 0.0"
                                             +" - Score will be clipped at 0.0!")
                                     clip = True
